@@ -41,10 +41,7 @@ namespace Aplib.Integrations.Unity.Actions
                 rigidbody.position = destination;
 
                 // If the direction is zero, don't rotate the object
-                if (direction == Vector3.zero)
-                {
-                    return;
-                }
+                if (direction == Vector3.zero) return;
 
                 rigidbody.rotation = Quaternion.LookRotation(direction);
             };

@@ -15,6 +15,5 @@
         "name": "Team Zomsa",
         "url": "https://github.com/team-zomsa"
     },
-    "dependencies": {},
-    "testables": ["com.team-zomsa.aplib-unity"]
+    "dependencies": {}
 }

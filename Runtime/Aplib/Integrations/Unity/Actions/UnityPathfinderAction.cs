@@ -47,10 +47,7 @@ namespace Aplib.Integrations.Unity.Actions
                 path
             );
 
-            if (path.corners.Length <= 1)
-            {
-                return;
-            }
+            if (path.corners.Length <= 1) return;
 
             // Move Towards
             Vector3 targetPosition = path.corners[1] + Vector3.up * heightOffset;
