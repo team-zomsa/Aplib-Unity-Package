@@ -89,7 +89,7 @@ namespace Aplib.Integrations.Unity.Actions
 
             if (path.corners.Length <= 1) return;
 
-            // Calculate and indicate in what direction we should move
+            // Calculate and indicate in what direction we should move.
             Vector3 targetPosition = path.corners[1] + Vector3.up * heightOffset;
             Vector3 newPosition = Vector3.MoveTowards(
                 rigidbody.position, targetPosition, maxDistanceDelta: Time.deltaTime * speed);
