@@ -1,5 +1,3 @@
-This readme should be updated later.
-
 Short instructions:
 1. Make sure git is installed on your machine.
 2. With your unity project of choice opened, press on the "Window" tab on the top of the screen.
