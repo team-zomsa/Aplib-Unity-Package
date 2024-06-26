@@ -18,7 +18,8 @@ Possible errors:
 
 # Licensing
 
-This project has no license defined yet.
+This project has been licensed under the GNU Affero General Public license, this
+can be found in the LICENSE file.
 
 ## Used packages
 
